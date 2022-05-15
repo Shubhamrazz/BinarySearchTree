@@ -62,5 +62,15 @@ namespace BinarySearchTree
                     RightTree.Display();
                 }
             }
+        //Method to get the size of the binary tree(UC2)
+        /*Explanation of size of BST
+          Start from the root.
+          Size = 1 (for the root) + Size Of left Sub-Tree + Size Of right Sub-Tree.
+          solve the left sub-tree and right sub-tree recursively.*/
+        public void GetSize()
+        {
+            Console.WriteLine("Size of the binary tree is : " + (1 + this.leftCount + this.rightCount));
+        }
+
     }
 }

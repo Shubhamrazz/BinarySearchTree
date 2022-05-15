@@ -30,6 +30,12 @@ namespace BinarySearchTree
             Console.WriteLine("--------------------------------");
 
             binaryTree.Display();
+
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("Checking Size Of Binary Search Tree");
+            Console.WriteLine("--------------------------------");
+
+            binaryTree.GetSize();
         }
     }
 }
